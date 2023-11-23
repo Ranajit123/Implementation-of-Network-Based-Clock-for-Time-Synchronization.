@@ -8,8 +8,8 @@
  
 Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire, -1); 
 
-const char* ssid = "RCCIIT";
-const char* password = "RCCIIT24";
+const char* ssid = "RCCIIT";//Replace with your ssid name
+const char* password = "RCCIIT24";//Replace with your ssid password 
  
 int GMTOffset = 19800;  //Replace with your GMT Offset in seconds
 int daylightOffset = 0;  // Replace with your daylight savings offset in seconds
